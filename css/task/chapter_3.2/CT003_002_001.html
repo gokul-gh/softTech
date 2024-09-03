@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Chapter 3.2 - Task 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      div > p {
+        background-color: #ffff00;
+      }
+      div ~ p {
+        color: blue;
+      }
+      div + p {
+        background-color: #800080;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Child Selector</h1>
+    <p>
+      The child selector (>) selects all elements that are the children of a
+      specified element.
+    </p>
+    <div>
+      <p>Paragraph 1 in the div.</p>
+      <p>Paragraph 2 in the div.</p>
+      <section>
+        <p>Paragraph 3 in the div (inside a section element).</p>
+      </section>
+      <p>Paragraph 4 in the div.</p>
+    </div>
+    <p>Paragraph 5. Not in a div.</p>
+    <p>Paragraph 6. Not in a div.</p>
+  </body>
+</html>
