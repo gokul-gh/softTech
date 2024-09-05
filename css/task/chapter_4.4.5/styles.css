@@ -1,0 +1,12 @@
+.boldPara {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+img {
+  position: sticky;
+  top: 10px;
+  left: 100px;
+  width: 10%;
+  height: 10%;
+}
