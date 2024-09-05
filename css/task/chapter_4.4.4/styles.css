@@ -1,0 +1,10 @@
+.para {
+    font-weight: 800;
+    font-size: 2em;
+}
+
+img {
+    width: 15%;
+    height: 25%;
+    position: fixed;
+}
