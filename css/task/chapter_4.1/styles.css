@@ -1,13 +1,13 @@
-h1 {
-  font-size: 4em;
-  margin: 0;
+html,
+body {
+  margin: 0px;
 }
 
 h1 {
   text-align: center;
-  font-size: 5em;
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
+  font-size: 4em;
+  margin-top: 0.1em;
+  margin-bottom: 0em;
 }
 
 h2,
@@ -15,45 +15,77 @@ p {
   text-align: center;
 }
 
-.subheadings {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-.subheadings > div {
-  margin: 1em;
-  padding-right: 1em;
-}
 body > hr {
-  height: 1px;
+  height: 2px;
   background-color: black;
 }
 
-.firstSubheading,
-.secondSubheading,
-.thirdSubheading,
-.fourthSubheading {
-  border-right: 1px solid black;
-}
-
-div > hr {
-  width: 10em;
-  height: 1px;
-  background-color: black;
-  opacity: 0.5;
+.subheadings {
+  display: flex;
 }
 
 .loremParagraph {
   text-align: left;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.verticalLine {
+  width: 1px;
+  height: 20em;
+  border: 1px solid black;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.firstSubheading {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.firstParaAuthorName {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+div > hr {
+  width: 10em;
+  height: 2px;
+  background-color: black;
+  opacity: 0.5;
 }
 
 div > p {
   font-style: italic;
   opacity: 0.8;
-  margin: 0;
 }
 
-.firstSubheading {
+.secondSubheading {
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+.secondPara {
+  font-size: 2em;
+  opacity: 0.8;
+}
+
+.thirdSubheading {
+  font-size: 2em;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.thirdPara {
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.lastSubheading {
+  font-size: 2rem;
   font-style: italic;
-    font-size: 1.1em;
-    font-weight: lighter;
 }
