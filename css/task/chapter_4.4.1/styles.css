@@ -1,0 +1,18 @@
+.staticPositioning {
+  position: static;
+}
+
+p {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+img {
+  height: 30vh;
+  width: 30vh;
+}
+
+body {
+  border: 2px solid #6d026d;
+  height: 97vh;
+}
