@@ -1,0 +1,21 @@
+h1{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.3em;
+}
+.material-symbols-outlined.attachment  {
+    color: blue;
+    font-size: 40px;
+}
+
+.material-symbols-outlined.favorite {
+    color: red;
+    font-size: 60px;
+}
+
+.material-symbols-outlined.laptop_windows {
+    color: #acd8e6;
+    font-size: 80px;
+}
