@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+  background-color: #242624;
+}
+
+h1 {
+  padding-bottom: 10%;
+  color: #fbfbfb;
+  font-size: 3rem;
+}
+
+.icons {
+  font-size: 2rem;
+  color: #646364;
+}
+
+.icons > i {
+  background-color: #151313;
+  padding: 0.7rem 0.5rem;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
+.fbGlow {
+  border: 10px solid transparent;
+  animation-name: fbIcon;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+.instaGlow {
+  border: 10px solid transparent;
+  animation-name: instaIcon;
+  animation-duration: 3s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+
+.ytGlow {
+  border: 10px solid transparent;
+  animation-name: ytIcon;
+  animation-duration: 3s;
+  animation-delay: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fbIcon {
+  from {
+    box-shadow: 0px 0px 15px 10px blue;
+    color: blue;
+  }
+
+  to {
+    border-color: transparent;
+  }
+}
+
+@keyframes instaIcon {
+  from {
+    box-shadow: 0px 0px 15px 10px pink;
+    color: pink;
+  }
+
+  to {
+    border-color: transparent;
+  }
+}
+
+@keyframes ytIcon {
+  from {
+    box-shadow: 0px 0px 15px 10px red;
+    color: red;
+  }
+
+  to {
+    border-color: transparent;
+  }
+}

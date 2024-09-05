@@ -1,0 +1,28 @@
+body {
+  background-color: #8bf9d3;
+}
+
+.header {
+  text-align: center;
+}
+
+#bouncingBall {
+  background-color: #d35ed8;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 300px, 0);
+  }
+}
