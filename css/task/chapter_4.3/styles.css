@@ -1,0 +1,12 @@
+.redBorder {
+  border: 2px red solid;
+  margin-right: 60%;
+  padding-bottom: 20%;
+}
+
+.text {
+  color: green;
+  float: right;
+  font-size: 1.5em;
+  margin: 0;
+}
